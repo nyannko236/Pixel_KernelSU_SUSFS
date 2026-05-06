@@ -34,6 +34,7 @@ on:
         type: choice
         options:
           - KSUN+SUSFS+BBG
+          - KSUN+SUSFS
           - KSUN+BBG
           - KSUN
           - BBG
@@ -390,7 +391,7 @@ jobs:
 
         Features:
         -> KernelSU-Next Manager, Wild KSU Manager Support is temporary disabled
-        -> SUSFS ඞ v2.1.0
+        -> SUSFS ඁEv2.1.0
         -> SUSFS Inline Hooks
         -> IPSet Support for Advanced Network Filtering
         -> BBRv3 TCP Congestion Control
