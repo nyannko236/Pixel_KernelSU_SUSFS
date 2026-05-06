@@ -1,7 +1,1 @@
-{
-  "include": [
-    {
-      "repo": "android-gs-bluejay-6.1-android16"
-    }
-  ]
-}
+{"include":[{"repo":"android-gs-bluejay-6.1-android16","codename":"bluejay"}]}
