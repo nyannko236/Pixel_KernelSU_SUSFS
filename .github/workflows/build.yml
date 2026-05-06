@@ -323,7 +323,7 @@ jobs:
     - name: Prepare AnyKernel3 Zip
       run: |
         # Copy Image from normal build locations
-        cp "$GITHUB_WORKSPACE/kernel/out/$CODENAM/dist/Image.lz4" "$GITHUB_WORKSPACE/AnyKernel3/Image.lz4"
+        cp "$GITHUB_WORKSPACE/kernel/out/${{ inputs.codename }}/dist/Image.lz4" "$GITHUB_WORKSPACE/AnyKernel3/Image.lz4"
 
     - name: Scan and collect patch rejects
       id: scan
