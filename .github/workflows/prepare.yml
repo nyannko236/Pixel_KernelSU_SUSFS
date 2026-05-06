@@ -68,7 +68,8 @@ jobs:
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     uses: ./.github/workflows/build.yml
     with:
-      repo: ${{ matrix.repo }}
+      
+      codename: ${{ matrix.codename }}
       ksu_commit: ${{ inputs.ksu_commit }}
       anykernel_commit: ${{ inputs.anykernel_commit }}
       patches_commit: ${{ inputs.patches_commit }}
