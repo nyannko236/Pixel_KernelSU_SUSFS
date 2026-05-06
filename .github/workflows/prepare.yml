@@ -69,6 +69,7 @@ jobs:
     uses: ./.github/workflows/build.yml
     with:
       
+      repo: ${{ matrix.repo }}
       codename: ${{ matrix.codename }}
       ksu_commit: ${{ inputs.ksu_commit }}
       anykernel_commit: ${{ inputs.anykernel_commit }}
